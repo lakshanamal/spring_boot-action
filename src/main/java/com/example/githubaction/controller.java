@@ -9,4 +9,9 @@ public class controller {
     public String admin() {
         return "Hello World from admin";
     }
+
+    @GetMapping("/employee")
+    public String employee() {
+        return "Hello World from admin";
+    }
 }
