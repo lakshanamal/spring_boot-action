@@ -14,4 +14,9 @@ public class controller {
     public String employee() {
         return "Hello World from admin";
     }
+
+    @GetMapping("/user")
+    public String user() {
+        return "Hello World from admin";
+    }
 }
